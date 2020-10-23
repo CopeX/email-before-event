@@ -1,0 +1,28 @@
+{
+  "name": "copex/email-before-event",
+  "version": "1.0.0",
+  "description": "Dispatch an Event before Email is sent",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "magento/module-email": "~101"
+  },
+    "authors": [
+        {
+            "name": "Andreas Pointner",
+            "email": "andreas.pointner@copex.io",
+            "homepage": "https://copex.io"
+        }
+    ],
+    "license": [
+    "OSL"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "CopeX\\EmailBeforeEvent\\": ""
+    }
+  }
+}
